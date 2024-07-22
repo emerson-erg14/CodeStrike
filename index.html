@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberStrike</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="path/to/your/favicon.ico" type="image/icone.png"> <!-- Adicione esta linha -->
+
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Raleway", sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.8;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("home.jpg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+
+    .pipeline {
+      display: flex;
+      overflow-x: auto;
+      padding: 20px;
+      align-items: center;
+    }
+
+    .step {
+      flex: 0 0 auto;
+      text-align: center;
+      margin: 0 20px;
+    }
+
+    .step img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .arrow {
+      margin: 0 10px;
+      font-size: 24px;
+    }
+
+    footer {
+      background-color: #f1f1f1; /* Tarja cinza no fundo */
+      padding: 64px 16px; /* Espaçamento interno */
+      text-align: center; /* Centralizar texto */
+      opacity: 0.9; /* Opacidade */
+    }
+
+    footer .w3-xlarge {
+      margin-bottom: 16px; /* Espaçamento inferior para os ícones */
+    }
+
+    footer p {
+      margin: 0; /* Remover margem padrão */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#index.html" class="w3-bar-item w3-button w3-wide">CyberStrike</a>
+    <!-- Right-sided navbar links -->
+    
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">CyberStrike Solutions</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+    <span class="w3-large">Sua Primeira Linha de Defesa Contra Ameaças Cibernéticas</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Sobre Nos!</a></p>
+  </div> 
+</header>
+
+<!-- Main Content -->
+<div class="content">
+  <!-- About Section -->
+  <div class="w3-container" style="padding:128px 16px; margin-bottom:0;" id="about">
+    <h3 style="text-align:center;">Conheça a CyberStrike Solutions: Líder em Segurança Cibernética</h3>
+    <br><br>
+    <p style="font-size:18px; text-align:left;">
+      Desde sua fundação, a CyberStrike Solutions tem se destacado como um pioneiro na criação e desenvolvimento de soluções sofisticadas de malware. Nossa missão é explorar e expandir as fronteiras da cibersegurança, criando ferramentas que desafiam a proteção digital e revelam novas perspectivas sobre a segurança de aplicações web, mobile e APIs.
+      <br><br>
+      Nosso projeto de inovação é a força motriz por trás de nossa excelência. Focamos em aprimorar continuamente nossos produtos de malware, empregando técnicas avançadas para comprometer a integridade, confidencialidade e disponibilidade dos dados e serviços. Em nossa busca pela perfeição, implementamos pipelines de desenvolvimento automatizados que realizam testes contínuos, identificando e explorando vulnerabilidades com precisão.
+      <br><br>
+      Através de nossa abordagem inovadora, a CyberStrike Solutions não apenas redefine o conceito de ameaças digitais, mas também contribui para a evolução das defesas cibernéticas. Ao desbravar novas técnicas e metodologias, garantimos que nossos produtos estejam sempre na vanguarda da tecnologia, desafiando o status quo e promovendo um ambiente de segurança mais robusto e adaptável.
+    </p>
+  </div>
+
+  <!-- Our Work Section -->
+  <div class="w3-container" style="padding:128px 16px" id="work">
+    <h3 style="text-align:center;">Nosso Trabalho: Inovação em Malware e Segurança Cibernética</h3>
+    <br><br>
+    <p style="font-size:18px; text-align:left;">
+      Na <strong>CyberStrike Solutions</strong>, estamos na vanguarda da inovação em segurança cibernética, combinando o poder da inteligência artificial (IA) para criar soluções de malware avançadas e ferramentas de pentest. Nossa missão é transformar o panorama da cibersegurança, oferecendo produtos e serviços que desafiam as convenções e garantem a eficácia em um ambiente digital em constante evolução.
+      <br><br>
+      <strong>Desenvolvimento de Malware com IA</strong>
+      <br>
+      Nossa fábrica de malware utiliza IA para desenvolver ameaças digitais sofisticadas e adaptáveis. Empregamos algoritmos avançados e técnicas de aprendizado de máquina para criar malware que não apenas simula comportamentos de ataque realistas, mas também evolui e se adapta a diferentes ambientes de segurança. Através desse processo, conseguimos explorar vulnerabilidades de forma mais eficaz e ajudar nossos clientes a compreender melhor os riscos em suas infraestruturas.
+      <br><br>
+      <strong>Ataques com IA: Simulando Ameaças Reais</strong>
+      <br>
+      Utilizando inteligência artificial, realizamos simulações de ataques que replicam as táticas e técnicas utilizadas por adversários reais. Isso nos permite identificar vulnerabilidades desconhecidas e testar a eficácia das defesas existentes. Nossos testes são meticulosamente planejados e executados para garantir que cada aspecto da segurança de nossos clientes seja avaliado e fortalecido.
+      <br><br>
+      <strong>Construção de Ferramentas para Pentest</strong>
+      <br>
+      Desenvolvemos ferramentas de pentest personalizadas que aproveitam o poder da IA para realizar avaliações de segurança abrangentes. Essas ferramentas são projetadas para identificar vulnerabilidades em sistemas complexos e fornecer insights acionáveis para melhorar a postura de segurança. Nossas soluções incorporam as últimas inovações em IA para fornecer análises detalhadas e relatórios abrangentes, facilitando a identificação de vulnerabilidades e a implementação de melhorias contínuas na segurança.
+      <br><br>
+      Na <strong>CyberStrike Solutions</strong>, não apenas enfrentamos os desafios de segurança, mas os antecipamos e os transformamos em oportunidades para fortalecer a proteção digital. Ao combinar a criatividade da IA com uma abordagem prática e estratégica, estamos redefinindo o futuro da segurança cibernética e capacitando nossos clientes a enfrentar um mundo digital cada vez mais complexo.
+    </p>
+  </div>
+
+  <!-- Team Section -->
+  <div class="w3-container" style="padding:128px 16px; margin-top:0;" id="team">
+    <h3 class="w3-center">Simulação na Esteira DevSecOps</h3>
+    <p class="w3-center w3-large"></p>
+    <div class="pipeline">
+      <div class="step">
+        <img src="https://img.icons8.com/ios-filled/50/000000/document.png" alt="Planejamento e Design">
+        <p>Planejamento e Design</p>
+      </div>
+      <span class="arrow">→</span>
+      <div class="step">
+        <img src="https://img.icons8.com/ios-filled/50/000000/artificial-intelligence.png" alt="Desenvolvimento de Malware com IA">
+        <p>Desenvolvimento de Malware com IA</p>
+      </div>
+      <span class="arrow">→</span>
+      <div class="step">
+        <img src="https://img.icons8.com/ios-filled/50/000000/search.png" alt="Testes de Penetração com IA">
+        <p>Testes de Penetração com IA</p>
+      </div>
+      <span class="arrow">→</span>
+      <div class="step">
+        <img src="https://img.icons8.com/ios-filled/50/000000/shield.png" alt="Simulação de Ameaças Reais">
+        <p>Simulação de Ameaças Reais</p>
+      </div>
+      <span class="arrow">→</span>
+      <div class="step">
+        <img src="https://img.icons8.com/ios-filled/50/000000/toolbox.png" alt="Desenvolvimento de Ferramentas de Pentest">
+        <p>Desenvolvimento de Ferramentas de Pentest</p>
+      </div>
+      <span class="arrow">→</span>
+      <div class="step">
+        <img src="relatorio.png" alt="Análise e Relatórios">
+        <p>Análise e Relatórios</p>
+      </div>
+      <span class="arrow">→</span>
+      <div class="step">
+        <img src="https://img.icons8.com/ios-filled/50/000000/gear.png" alt="Correção e Iteração">
+        <p>Correção e Iteração</p>
+      </div>
+      <span class="arrow">→</span>
+      <div class="step">
+        <img src="https://img.icons8.com/ios-filled/50/000000/monitor.png" alt="Deploy e Monitoramento">
+        <p>Deploy e Monitoramento</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity" style="background-color: #f1f1f1;">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p style="font-size:16px;">
+    <strong>CyberStrike Solutions</strong><br>
+    Email: <a href="mailto:contato@cyberstrike.com">contato@cyberstrike.com</a><br>
+    Telefone: <a href="tel:+550000000000">(31) 99840-2112</a><br>
+    Endereço: Rua Marcelino Alves de Oliveira, 54, Belo Horizonte, MG, Brasil
+  </p>
+  <p style="font-size:14px;">
+    &copy; 2024 CyberStrike Solutions. Todos os direitos reservados.
+  </p>
+</footer>
+
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+
+  // Close the sidebar with the close button
+  function w3_close() {
+    mySidebar.style.display = "none";
+  }
+</script>
+
+</body>
+</html>
